@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+       
+       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+        <link href="https://cdn.jsdelivr.net/npm/flowbite@3.1.2/dist/flowbite.min.css" rel="stylesheet" />    
+    </head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Smart Pet Feeder — Working Progress</title>
+
+  <!-- Flowbite & Tailwind -->
+  <link href="https://cdn.jsdelivr.net/npm/flowbite@2.5.1/dist/flowbite.min.css" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: url('bg.jpg') no-repeat center center fixed;
+      background-size: cover;
+      margin: 0;
+      padding: 0;
+    }
+
+    .main-box {
+      background-color: rgba(255, 255, 255, 0.92);
+      border-radius: 20px;
+      width: 85%;
+      max-width: 1000px;
+      margin: 30px auto;
+      padding: 30px;
+      box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
+    }
+
+    h2 {
+      color: #4b2e05;
+      text-align: center;
+      margin-bottom: 10px;
+    }
+
+    h3 {
+      color: #874939;
+      margin-top: 20px;
+    }
+
+    ul {
+      margin: 0;
+      padding-left: 25px;
+    }
+
+    li {
+      margin-bottom: 6px;
+    }
+
+    footer {
+      text-align: center;
+      margin: 40px 0 20px;
+      color: #4b2e05;
+      font-weight: bold;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="main-box">
+    <h2>Smart Pet Feeder — Working Progress</h2>
+    <p style="text-align:center; color:#555;">
+      Project summary, current status, and next steps.
+    </p>
+
+    <h3>1. Project Title</h3>
+    <p><strong>Smart Pet Feeder</strong></p>
+
+    <h3>2. Objective</h3>
+    <p>To automatically feed pets at scheduled times and monitor food/water levels.</p>
+
+    <h3>3. Current Progress (Working Progress)</h3>
+
+    <h4>✅ Hardware Setup:</h4>
+    <ul>
+      <li>ESP32 connected successfully</li>
+      <li>Servo motor controlling the food dispenser</li>
+      <li>Water level sensor and load cell connected</li>
+      <li>LCD display showing system status</li>
+    </ul>
+
+    <h4>⚙️ Software Development:</h4>
+    <ul>
+      <li>Code for feeding mechanism tested</li>
+      <li>Wi-Fi connection and Adafruit IO integration in progress</li>
+      <li>Data publishing (weight, water level) works partially</li>
+      <li>MQTT messages being tested</li>
+    </ul>
+
+    <h4>🎨 Web Dashboard:</h4>
+    <ul>
+      <li>HTML interface created</li>
+      <li>Background image added</li>
+      <li>Need to add text and live data display</li>
+    </ul>
+
+    <h4>🧠 Next Steps:</h4>
+    <ul>
+      <li>Improve sensor calibration</li>
+      <li>Complete web interface with live data</li>
+      <li>Test full automation and notifications</li>
+    </ul>
+  </div>
+
+  <footer>
+    © 2025 Smart Pet Feeder Project — Working Progress Report
+  </footer>
+
+  <!-- Optional: Flowbite JS -->
+  <script src="https://cdn.jsdelivr.net/npm/flowbite@2.5.1/dist/flowbite.min.js"></script>
+</body>
+
+</html>
